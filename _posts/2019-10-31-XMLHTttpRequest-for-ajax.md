@@ -2,8 +2,8 @@
 date: 2019-10-31 15:00:00
 layout: post
 title: 使用XMLHttpRequest实现AJAX
-subtitle: 通过 `XMLHttpRequest`, `ActiveXObject` 实现 `ajax`
-description: 通过 `XMLHttpRequest`, `ActiveXObject` 实现 `ajax`
+subtitle: 通过 XMLHttpRequest, ActiveXObject 实现 ajax
+description: 使用 XMLHttpRequest, ActiveXObject 实现 ajax
 image: http://source.upupoo.com/theme/2000020791/previewFix.jpg
 optimized_image: http://source.upupoo.com/theme/2000020791/previewFix.jpg
 category: javascript
@@ -19,7 +19,7 @@ author: fg411
 
 因项目是Web App，在接手项目时就已使用`fetch`,而 ipad 下并不支持 `fetch`。所以，在做网络请求部分做了点处理
 
-`XMLHTttpRequest`和`fetch`是浏览器的原声API，而`ajax`的核心是 `XMLHTttpRequest`对象
+`XMLHTttpRequest`和`fetch`是浏览器的原生API，而`ajax`的核心是 `XMLHTttpRequest`对象
 
 ### 创建XHR
 
@@ -140,14 +140,14 @@ xhr对象有且仅有一个事件`onreadystatechange`，每一次xhr对象的 `r
 在`readystatechange`事件中，先判断响应是否接收完成，然后判断服务器是否成功处理请求，`xhr.status` 是状态码，状态码以2开头的都是成功，304表示从缓存中获取
 
 接收到响应后，响应的数据会自动填充XHR对象，相关属性有：
-```
+``` javascript
 responseText:获得字符串形式的响应数据
 responseXML:获得XML形式的响应数据
 status:响应的HTTP状态码
 statusText:HTTP状态的说明
 ```
 
-```
+``` javascript
 xhr.onreadystatechange = function(){
   if(xhr.readyState == 4){
       if(xhr.status == 200){
