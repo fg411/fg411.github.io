@@ -237,5 +237,6 @@ console.log(4);
  - `resovle`不会生效，因为p这个Promise的状态一旦改变就不会在改变了。 所以最终的输出顺序是3、7、4、1、2、5
 
 ## 原文链接：
-[这一次，彻底弄懂Javascript执行机制](https://juejin.im/post/59e85eebf265da430d571f89)
-[一个Promise面试题](https://juejin.im/post/5af800fe518825429c594f92?utm_source=gold_browser_extension)
+
+* [这一次，彻底弄懂Javascript执行机制](https://juejin.im/post/59e85eebf265da430d571f89)
+* [一个Promise面试题](https://juejin.im/post/5af800fe518825429c594f92?utm_source=gold_browser_extension)

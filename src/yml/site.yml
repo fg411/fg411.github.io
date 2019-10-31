@@ -1,12 +1,9 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+name: fg411
+title: fg411 | A blog for fg411
+description: 做一条咸鱼，偶尔撸撸代码，吹吹牛逼
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
-email: youremail@xyz.com
+  - fg411
+email: gf_blwy@sina.com
 disqus_username: disqus_username
 show_hero: true
