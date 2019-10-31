@@ -93,7 +93,7 @@ xhr.send(null);
 
 open方法接收三个参数: 规定请求类型（POST或GET）、请求地址url、异步（true）同步（false）
 
-```
+``` javascript
 xhr.open('get', 'example.php', false);
 ```
 #### 发送请求
@@ -101,7 +101,7 @@ xhr.open('get', 'example.php', false);
 分`GET`和`POST`两种。`GET` 请求方式是通过URL参数将数据提交到服务器的，`POST` 则是通过将数据作为send的参数提交到服务器
 
 GET请求:发送的值为空，一般写上null
-```
+``` javascript
 xhr.open('GET', url);
 xhr.send(null);
 ```
@@ -117,7 +117,7 @@ POST请求,要设置表单提交的内容类型。要模拟表单提交请求的
 
 XHR.send(null) ：发送请求，当没有参数传递时，参数为null;当为get请求时，携带的参数需要通过encodeURIComponent进行编码
 
-```
+``` javascript
 xhr.open('POST', url);
 xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 xhr.send(stringData);
@@ -140,7 +140,7 @@ xhr对象有且仅有一个事件`onreadystatechange`，每一次xhr对象的 `r
 在`readystatechange`事件中，先判断响应是否接收完成，然后判断服务器是否成功处理请求，`xhr.status` 是状态码，状态码以2开头的都是成功，304表示从缓存中获取
 
 接收到响应后，响应的数据会自动填充XHR对象，相关属性有：
-``` javascript
+``` json
 responseText:获得字符串形式的响应数据
 responseXML:获得XML形式的响应数据
 status:响应的HTTP状态码
