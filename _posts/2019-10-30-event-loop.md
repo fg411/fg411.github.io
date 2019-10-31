@@ -6,7 +6,7 @@ subtitle: 浅谈Javascript中的 EventLoop机制
 description: 浅谈Javascript中的 EventLoop机制
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559825288/theme17_nlndhx.jpg
 optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559825288/theme17_nlndhx.jpg
-category: work
+category: javascript
 tags:
   - Event Loop机制
   - 事件循环机制
