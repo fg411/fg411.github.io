@@ -4,8 +4,8 @@ layout: post
 title: Raspberry安装shadowsocks-qt5
 subtitle: 安装shadowsocks-qt5，实现科学上网
 description: 科学上网从shadowsocks开始，搭建一个ss客户端
-image: http://i-3.yiwan.com/2017/5/16/eb44a400-e6df-4eb3-9ed4-e2db4d9f6cbd.jpg
-optimized_image: http://i-3.yiwan.com/2017/5/16/eb44a400-e6df-4eb3-9ed4-e2db4d9f6cbd.jpg
+image: http://pic1.win4000.com/wallpaper/2017-12-15/5a33962b679e0.jpg
+optimized_image: http://pic1.win4000.com/wallpaper/2017-12-15/5a33962b679e0.jpg
 category: tutorial
 tags:
   - ubuntu
