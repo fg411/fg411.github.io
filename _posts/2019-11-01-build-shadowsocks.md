@@ -4,8 +4,8 @@ layout: post
 title: 搭建shadowsocks服务
 subtitle: 搭建ss服务，科学网上冲浪，你懂的
 description: 科学上网从shadowsocks开始，一起搭建一个ss服务
-image: http://i-3.yiwan.com/2017/5/16/eb44a400-e6df-4eb3-9ed4-e2db4d9f6cbd.jpg
-optimized_image: http://i-3.yiwan.com/2017/5/16/eb44a400-e6df-4eb3-9ed4-e2db4d9f6cbd.jpg
+image: http://b.hiphotos.baidu.com/image/pic/item/0eb30f2442a7d9337119f7dba74bd11372f001e0.jpg
+optimized_image: http://b.hiphotos.baidu.com/image/pic/item/0eb30f2442a7d9337119f7dba74bd11372f001e0.jpg
 category: tutorial
 tags:
   - ubuntu
