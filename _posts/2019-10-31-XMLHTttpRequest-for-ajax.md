@@ -216,3 +216,9 @@ ajax({
     }
 })
 ```
+
+--------
+
+## 参考
+
+ - [再也不学AJAX了！（二）使用AJAX](https://segmentfault.com/a/1190000012237477?utm_source=weekly&utm_medium=email&utm_campaign=email_weekly)

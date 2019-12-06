@@ -114,3 +114,4 @@ author: fg411
 
  * [浏览器同源政策及其规避方法](http://www.ruanyifeng.com/blog/2016/04/same-origin-policy.html)
  * [由同源策略到前端跨域](https://juejin.im/post/58f816198d6d81005874fd97#heading-7)
+ * [前端跨域解决方案](https://segmentfault.com/a/1190000012256432?utm_source=weekly&utm_medium=email&utm_campaign=email_weekly)
