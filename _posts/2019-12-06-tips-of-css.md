@@ -9,7 +9,8 @@ optimized_image:  https://segmentfault.com/img/bVZwyL?w=900&h=385
 category: http
 tags:
   - css
-  - http-proxy
+  - clip-path
+  - shape-outside
 author: fg411
 ---
 
@@ -63,3 +64,4 @@ author: fg411
 参考:
  - [你不知道的CSS](https://segmentfault.com/a/1190000010993048)
  - [神奇的 CSS](https://segmentfault.com/a/1190000012242526?utm_source=weekly&utm_medium=email&utm_campaign=email_weekly)
+ - [奇妙的 CSS shapes(CSS图形)](https://segmentfault.com/p/1210000009779482/read)
