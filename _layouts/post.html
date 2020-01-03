@@ -108,7 +108,7 @@
             "name": "{{ page.title }}",
             "headline": "{{ page.subtitle }}",
             "description": "{{ page.description }}",
-            "image": "{{ page.image }}",
+            "image": "{{ page.optimized_image }}",
             "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
             "articleBody": "{{ content | strip_html | xml_escape | textilize }}",
             "wordcount": "{{ content | number_of_words }}",
