@@ -4,8 +4,8 @@ layout: post
 title: 使用XMLHttpRequest实现AJAX
 subtitle: 通过 XMLHttpRequest, ActiveXObject 实现 ajax
 description: 使用 XMLHttpRequest, ActiveXObject 实现 ajax
-image: http://source.upupoo.com/theme/2000020791/previewFix.jpg
-optimized_image: http://source.upupoo.com/theme/2000020791/previewFix.jpg
+image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1578046196637&di=5c99086c0b9a3a428c92c114f34c7bc4&imgtype=0&src=http%3A%2F%2Fimg5.autotimes.com.cn%2Fnews%2F2017%2F10%2F1029_104214303492.gif
+optimized_image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1578046196637&di=5c99086c0b9a3a428c92c114f34c7bc4&imgtype=0&src=http%3A%2F%2Fimg5.autotimes.com.cn%2Fnews%2F2017%2F10%2F1029_104214303492.gif
 category: javascript
 tags:
   - XMLHttpRequest

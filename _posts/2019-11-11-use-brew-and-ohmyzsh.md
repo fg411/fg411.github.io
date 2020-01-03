@@ -45,6 +45,7 @@ author: fg411
 　　Mac 终端默认 `shell` 为 `bash`，zsh 可能是目前最好的 `shell`，只是配置过于复杂，而 `oh-my-zsh` 只需简单的安装配置
 
 　　**使用 zsh**
+
 　　查看当前使用的 `shell`
 
 ```shell
