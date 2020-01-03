@@ -22,7 +22,7 @@
                 <p class="post-subtitle">{{ page.subtitle }}</p>
 
                 {% if page.image and paginator.activated == nil %}
-                    <img src="{{ page.image }}" alt="Featured image" class="post-cover">
+                    <img src="{{ page.optimized_image }}" alt="Featured image" class="post-cover">
                 {% endif %}
 
                 {% include pagination-post.html progressBar=true %}
@@ -108,7 +108,7 @@
             "name": "{{ page.title }}",
             "headline": "{{ page.subtitle }}",
             "description": "{{ page.description }}",
-            "image": "{{ page.optimized_image }}",
+            "image": "{{ page.image }}",
             "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
             "articleBody": "{{ content | strip_html | xml_escape | textilize }}",
             "wordcount": "{{ content | number_of_words }}",
