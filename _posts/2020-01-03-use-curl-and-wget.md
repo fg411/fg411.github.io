@@ -4,7 +4,7 @@ layout: post
 title: curl 和 wget 的区别和使用
 subtitle: curl 和 wget 基础功能有诸多重叠，整理一下
 description: curl 和 wget 基础功能的罗列
-image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1578046015201&di=a2aac8c9fec3fe96e50f8e67c0b84f5d&imgtype=0&src=http%3A%2F%2Fattach.bbs.miui.com%2Fforum%2F201303%2F21%2F102406y3330470vtfz8y93.jpg
+image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1578046469146&di=24b211897ae2ce4b99f4c04c8cbfaced&imgtype=0&src=http%3A%2F%2Fattimg.dospy.com%2Fimg%2Fday_110923%2F20110923_0dd4df9e10e0aabdb8aaoGPSl0x9i9p6.jpg
 optimized_image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1578046015201&di=a2aac8c9fec3fe96e50f8e67c0b84f5d&imgtype=0&src=http%3A%2F%2Fattach.bbs.miui.com%2Fforum%2F201303%2F21%2F102406y3330470vtfz8y93.jpg
 category: tutorial
 tags:

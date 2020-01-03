@@ -4,8 +4,8 @@ layout: post
 title: CSS小技巧
 subtitle: 
 description: CSS小技巧
-image:  https://segmentfault.com/img/bVZwyL?w=900&h=385
-optimized_image:  https://segmentfault.com/img/bVZwyL?w=900&h=385
+image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1578046601374&di=1539b226782b2dd2a3e4c629cf4da227&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2Fd%2F5513a960ca8ce.jpg
+optimized_image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1578046601374&di=1539b226782b2dd2a3e4c629cf4da227&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2Fd%2F5513a960ca8ce.jpg
 category: http
 tags:
   - css
