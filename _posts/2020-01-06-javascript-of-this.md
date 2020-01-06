@@ -5,7 +5,7 @@ title: JS的this面试题
 subtitle: JS的this面试题
 description: JS的this面试题
 image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1578046469146&di=24b211897ae2ce4b99f4c04c8cbfaced&imgtype=0&src=http%3A%2F%2Fattimg.dospy.com%2Fimg%2Fday_110923%2F20110923_0dd4df9e10e0aabdb8aaoGPSl0x9i9p6.jpg
-optimized_image: http://pic1.win4000.com/wallpaper/f/544a04c831e05.jpg
+optimized_image: http://baijiahao.baidu.com/s?id=1652076013181597159&wfr=spider&for=pc
 category: javascript
 tags:
   - this
@@ -27,7 +27,7 @@ author: fg411
 
 ### 2.1 默认绑定
 
-```
+```javascript
 function foo(){
     var a = 1 ;
     console.log(this.a);    // 10
@@ -42,7 +42,7 @@ foo();
 
 ### 2.2 隐性绑定
 
-```
+```javascript
 function foo(){
     console.log(this.a);
 }
@@ -78,7 +78,7 @@ obj.foo();            // ?
  - `call` 从第二个参数开始所有的参数都是 原函数的参数
  - `apply` 只接受两个参数，且第二个参数必须是数组，这个数组代表原函数的参数列表
 
-```
+```javascript
 function foo(a,b){
     console.log(a+b);
 }
@@ -90,7 +90,7 @@ foo.apply(null, ['海洋','饼干'] );     // 海洋饼干
 
 　　**bind 只有一个函数，且不会立刻执行，只是将一个值绑定到函数的this上,并将绑定好的函数返回**。例:
 
-```
+```javascript
 function foo(){
     console.log(this.a);
 }
@@ -103,7 +103,7 @@ foo();                    // 10
 #### 2.3.3 显性绑定
 
 　　开始入正题，上代码，就用上面隐性绑定的例子：
-```
+```javascript
 function foo(){
     console.log(this.a);
 }
@@ -140,7 +140,7 @@ foo.call(obj);        // 10
 
 ## 2.4.2 `new`绑定
 
-```
+```javascript
 function foo(){
     this.a = 10;
     console.log(this);
@@ -157,7 +157,7 @@ console.log(obj.a);       // 10    new绑定
 
 　　特别注意 : 如果原函数返回一个对象类型，那么将无法返回新对象,你将丢失绑定this的新对象，例:
 
-```
+```javascript
 function foo(){
     this.a = 10;
     return new String("捣蛋鬼");
@@ -197,7 +197,7 @@ new 绑定 > 显示绑定 > 隐式绑定 > 默认绑定
 
     ```
        例:function foo(){...} foo() ,foo 中的 this 就是 window.(严格模式下默认绑定到undefined).
-       这样的绑定方式叫 默认绑定 .
+       这样的绑定方式叫 默认绑定
     ```
 
 ## 4 . 箭头函数的`this`绑定
@@ -209,7 +209,7 @@ new 绑定 > 显示绑定 > 隐式绑定 > 默认绑定
  - 1.  箭头函数不使用我们上面介绍的四种绑定，而是**完全根据外部作用域来决定this**。(它的父级是使用我们的规则的哦)
  - 2.  箭头函数的this绑定无法被修改 (这个特性非常爽)
 
-```
+```javascript
 function foo(){
     return ()=>{
         console.log(this.a);
@@ -235,7 +235,7 @@ baz.call(obj);              // 10
 
 　　还记得我们之前第一个例子吗，将它改成箭头函数的形式(可以彻底解决恶心的this绑定问题)：
 
-```
+```javascript
 var people = {
     Name: "海洋饼干",
     getName : function(){
@@ -247,7 +247,7 @@ var bar = people.getName;
 bar();    // undefined
 ```
 ============ 修改后 ============
-```
+```javascript
 var people = {
     Name: "海洋饼干",
     getName : function(){
@@ -262,7 +262,7 @@ bar();    // 海洋饼干
 ```
 　　可能会有人不解为什么在箭头函数外面再套一层，直接写不就行了吗，搞这么麻烦干嘛，其实这**也是箭头函数很多人用不好的地方**
 
-```
+```javascript
 var obj= {
     that : this,
     bar : function(){
@@ -283,10 +283,11 @@ obj.baz();              // window
  - 3.  用function包裹的目的就是将箭头函数绑定到当前的对象上。函数的作用域是当前这个对象，然后箭头函数会自动绑定函数所在作用域的this，即obj
 
 ## 5 . 面试题解析
+
 ---------
 
-1. 
-```
+1 .
+```javascript
 var x = 10;
 var obj = {
     x: 20,
@@ -304,9 +305,9 @@ obj.f();
 
 答案 ： 20 10
 
-解析 ：考点 **1.** this默认绑定 **2.** this隐性绑定
+解析 ：考点 **1.** `this` 默认绑定 **2.** `this` 隐性绑定
 
-```
+```javascript
 var x = 10;
 var obj = {
     x: 20,
@@ -326,7 +327,7 @@ obj.f();
 ```
 
 2 .
-```
+```javascript
 function foo(arg){
     this.a = arg;
     return this
@@ -342,7 +343,7 @@ console.log(b.a);    // ?
 
 答案 ： undefined 10
 
-解析 ：考点 **1.** 全局污染 **2.** this默认绑定
+解析 ：考点 **1.** 全局污染 **2.** `this` 默认绑定
 
 　　这道题很有意思，问题基本上都集中在第一`undefined`上，这其实是题目的小陷阱，但是追栈的过程绝对精彩
 让我们一步步分析这里发生了什么：
@@ -356,7 +357,7 @@ console.log(b.a);    // ?
 本题中所有变量的值，a = window.a = 10 , a.a = undefined , b = window , b.a = window.a = 10;
 
 3 .
-```
+```javascript
 var x = 10;
 var obj = {
     x: 20,
@@ -377,7 +378,7 @@ obj2.f();
 
 解析：传说中的送分题，考点，辨别`this`绑定
 
-```
+```javascript
 var x = 10;
 var obj = {
     x: 20,
@@ -397,7 +398,7 @@ obj2.f();   //30
 ```
 
 4 .
-```
+```javascript
 function foo() {
     getName = function () { console.log (1); };
     return this;
@@ -421,7 +422,7 @@ new new foo().getName ();      // ?
 
 解析：考点 1. new绑定 2. 隐性绑定 3. 默认绑定 4. 变量污染
 
-```
+```javascript
 function foo() {
     getName = function () { console.log (1); }; 
             //这里的getName 将创建到全局window上
