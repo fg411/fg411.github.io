@@ -5,7 +5,7 @@ title: JS的this面试题
 subtitle: JS的this面试题
 description: JS的this面试题
 image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1578046469146&di=24b211897ae2ce4b99f4c04c8cbfaced&imgtype=0&src=http%3A%2F%2Fattimg.dospy.com%2Fimg%2Fday_110923%2F20110923_0dd4df9e10e0aabdb8aaoGPSl0x9i9p6.jpg
-optimized_image: http://baijiahao.baidu.com/s?id=1652076013181597159&wfr=spider&for=pc
+optimized_image: http://picture.ik123.com/uploads/allimg/160506/3-160506140937.jpg
 category: javascript
 tags:
   - this
