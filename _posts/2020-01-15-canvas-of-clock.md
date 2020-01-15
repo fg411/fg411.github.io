@@ -15,7 +15,7 @@ author: fg411
 
 　　之前想学canvas，今天看到个课程是用canvas画的闹钟，一开始以为会很难，按照课程写了一遍后发现如此简单，下面把 `js` 部分贴上来
 
-```javascript 1.6
+```javascript
 var dom = document.getElementById('clock');
 var ctx = dom.getContext('2d');
 var height = ctx.canvas.height;
@@ -134,5 +134,4 @@ setInterval(draw, 1000)
 ---------
 
 ### 参考：
-
 - [HTML5 <canvas> 参考手册](https://www.runoob.com/tags/ref-canvas.html)
