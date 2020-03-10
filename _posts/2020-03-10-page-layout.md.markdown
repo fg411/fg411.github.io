@@ -188,6 +188,7 @@ author: fg411
 
 ------
 **参考：**
--[圣杯布局和双飞翼布局的理解与思考](https://www.jianshu.com/p/81ef7e7094e8)
--[前端面试每日 3+1（每日三问）](https://github.com/haizlin/fe-interview)
--[如何实现一个圣杯布局？](https://segmentfault.com/a/1190000017540629)
+
+- [圣杯布局和双飞翼布局的理解与思考](https://www.jianshu.com/p/81ef7e7094e8)
+- [前端面试每日 3+1（每日三问）](https://github.com/haizlin/fe-interview)
+- [如何实现一个圣杯布局？](https://segmentfault.com/a/1190000017540629)
