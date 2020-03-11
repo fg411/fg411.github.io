@@ -1,7 +1,7 @@
 ---
 date: 2020-03-09 15:40:00
 layout: post
-title: 罗列一些常见的页面布局.md
+title: 罗列一些常见的页面布局
 subtitle: 常见的页面布局你知道几个？
 description: 常见的页面布局你知道几个？
 image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1578046469146&di=24b211897ae2ce4b99f4c04c8cbfaced&imgtype=0&src=http%3A%2F%2Fattimg.dospy.com%2Fimg%2Fday_110923%2F20110923_0dd4df9e10e0aabdb8aaoGPSl0x9i9p6.jpg
