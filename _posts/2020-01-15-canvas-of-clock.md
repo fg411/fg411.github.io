@@ -134,4 +134,4 @@ setInterval(draw, 1000)
 ---------
 
 ### 参考：
-- [HTML5 <canvas> 参考手册](https://www.runoob.com/tags/ref-canvas.html)
+- [HTML5 canvas 参考手册](https://www.runoob.com/tags/ref-canvas.html)
