@@ -31,7 +31,7 @@ function drawBackground() {
 	ctx.arc(0, 0, r - ctx.lineWidth / 2, 0, 2 * Math.PI)
 	ctx.stroke()
 
-	var hourNumber = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1, 2 ]
+	var hourNumber = ['III', 'I V', ' V ', 'V I', 'VII', 'VIII', 'I X', ' X ', 'X I', 'XII', ' I ', 'I  I' ]
 	ctx.font = 15 * rem + 'px Arial'
 	ctx.textAlign = 'center'
 	ctx.textBaseline = 'middle'
