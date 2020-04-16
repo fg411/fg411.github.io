@@ -99,3 +99,4 @@ function insertHtmlAtCaret(childElement){
  - [div中粘贴图片并上传服务器 div中拖拽图片文件并上传服务器](https://www.cnblogs.com/fj99/p/5499233.html)
  - [Window.getSelection](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/getSelection)
  - [FileReader获取上传图片的宽高](http://www.mamicode.com/info-detail-2579337.html)
+ - [基于js粘贴事件paste简单解析以及遇到的坑](https://www.jb51.net/article/123071.htm)
