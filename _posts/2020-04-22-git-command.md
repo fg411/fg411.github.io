@@ -1,7 +1,7 @@
 ---
 date: 2020-04-22 15:30
 layout: post
-title: `git` 常用语句
+title: git常用语句
 subtitle: `git` 实用的语句你知道几个
 description: `git` 实用的语句，整理罗列一下
 image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1578046469146&di=24b211897ae2ce4b99f4c04c8cbfaced&imgtype=0&src=http%3A%2F%2Fattimg.dospy.com%2Fimg%2Fday_110923%2F20110923_0dd4df9e10e0aabdb8aaoGPSl0x9i9p6.jpg
