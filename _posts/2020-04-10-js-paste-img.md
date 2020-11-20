@@ -5,7 +5,7 @@ title: JS实现粘贴图片
 subtitle: 教你如何把剪切板里的图片信息粘贴到页面上
 description: 使用JS教你如何粘贴图片，包教不包会
 image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1578046469146&di=24b211897ae2ce4b99f4c04c8cbfaced&imgtype=0&src=http%3A%2F%2Fattimg.dospy.com%2Fimg%2Fday_110923%2F20110923_0dd4df9e10e0aabdb8aaoGPSl0x9i9p6.jpg
-optimized_image: http://img.mm4000.com/file/7/5d/4db0e0e9cc_800.jpg
+optimized_image: https://bkimg.cdn.bcebos.com/pic/9825bc315c6034a81358c82ac1134954082376e6?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UyMjA=,g_7,xp_5,yp_5
 category: blog
 tags:
   - 粘贴图片
