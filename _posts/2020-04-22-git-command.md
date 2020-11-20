@@ -5,7 +5,7 @@ title: git常用语句
 subtitle: git 实用的语句你知道几个
 description: git 实用的语句，整理罗列一下
 image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1578046469146&di=24b211897ae2ce4b99f4c04c8cbfaced&imgtype=0&src=http%3A%2F%2Fattimg.dospy.com%2Fimg%2Fday_110923%2F20110923_0dd4df9e10e0aabdb8aaoGPSl0x9i9p6.jpg
-optimized_image: http://img.mm4000.com/file/7/5d/4db0e0e9cc_800.jpg
+optimized_image: https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3623108049,2020416334&fm=26&gp=0.jpg
 category: blog
 tags:
   - fg411

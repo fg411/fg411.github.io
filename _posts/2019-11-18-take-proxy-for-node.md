@@ -5,7 +5,7 @@ title: node实现反向代理
 subtitle: 
 description: node实现反向代理
 image:  https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573551287340&di=a249d3826e7d641eb1fb342e57eab8fd&imgtype=0&src=http%3A%2F%2Fcdn.duitang.com%2Fuploads%2Fitem%2F201204%2F30%2F20120430173137_EVYWR.thumb.700_0.jpeg
-optimized_image:  https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573551287340&di=a249d3826e7d641eb1fb342e57eab8fd&imgtype=0&src=http%3A%2F%2Fcdn.duitang.com%2Fuploads%2Fitem%2F201204%2F30%2F20120430173137_EVYWR.thumb.700_0.jpeg
+optimized_image:  https://www.runoob.com/wp-content/uploads/2014/03/nodejs.jpg
 category: http
 tags:
   - node
