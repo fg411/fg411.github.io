@@ -5,7 +5,7 @@ title: 使用vue指令实现复制代码
 subtitle: 自定义一个复制code的指令吧
 description: 使用vue指令实现复制代码
 image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1578046469146&di=24b211897ae2ce4b99f4c04c8cbfaced&imgtype=0&src=http%3A%2F%2Fattimg.dospy.com%2Fimg%2Fday_110923%2F20110923_0dd4df9e10e0aabdb8aaoGPSl0x9i9p6.jpg
-optimized_image: http://desk.fd.zol-img.com.cn/t_s960x600c5/g5/M00/02/03/ChMkJlbKxqqIaOMbAAQgJgyQQIwAALHogFV7g4ABCA-804.jpg
+optimized_image: http://img.mm4000.com/file/7/5d/4db0e0e9cc_800.jpg
 category: blog
 tags:
   - vue

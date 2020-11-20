@@ -8,7 +8,8 @@ image: https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3623108049,2020
 optimized_image: https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3623108049,2020416334&fm=26&gp=0.jpg
 category: blog
 tags:
-  - fg411
+  - Linux
+  - Less
 author: fg411
 ---
 
@@ -20,7 +21,7 @@ author: fg411
 #### 基操
 
  - 第一步：打开日志文件
-``` shell
+```shell
 >less sigma.log
 ```
  - 第二步：定位到日志文件的最后一行（ `shift+g` 可移动到最后一行）

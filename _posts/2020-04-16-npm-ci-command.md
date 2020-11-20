@@ -5,7 +5,7 @@ title: npm-ci命令行
 subtitle: 详解npm ci命令行
 description: 详解npm ci命令行
 image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1578046469146&di=24b211897ae2ce4b99f4c04c8cbfaced&imgtype=0&src=http%3A%2F%2Fattimg.dospy.com%2Fimg%2Fday_110923%2F20110923_0dd4df9e10e0aabdb8aaoGPSl0x9i9p6.jpg
-optimized_image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1587012164346&di=a05d0c44299bfbbcd749083ec6f9986f&imgtype=0&src=http%3A%2F%2Fa3.att.hudong.com%2F03%2F56%2F19300001130632130128560741382_950.jpg
+optimized_image: https://a3.att.hudong.com/03/56/19300001130632130128560741382_950.jpg
 category: blog
 tags:
   - npm
