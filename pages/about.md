@@ -8,11 +8,20 @@ menu: true
 
 <img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
 
-# About
+# 关于我
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+学校时期勉勉强强混到毕业，毕业的时候实习期间自学PHP，幸运的是凭着三脚猫功夫找了份工作，然而还是向往着去大城市闯荡。
+
+当同学问我去不去他们公司，还有大神带，我就去了。因为有大神，项目框架都是现成的，任务不难，自己对学习也并不太上心，后来因为公司项目需要，改学了JS，目前还在继续学习阶段，唉，感觉快要学不动了。
+
+目前已经在前端的领域摸索4年，期间经历了公司倒闭，才知道自己要走出舒适区，也才知道自己还需努力！
+
+### 工作经历：
+
+| 时间 | 就职企业 |
+| :--- | :--- |
+|2013/10 — 2014/5 | 马鞍山市大家网络技术服务有限公司 |
+|2014/5 — 2015/3 | 合肥亿速网络科技有限公司 |
+|2015/3 — 2018/1 | 上海荐达网络科技有限公司 |
+|2018/3 — 2018/5 | 上海渡心网络科技有限公司 |
+|2018/5 — 至今 | 上海新晨信息集成系统有限公司 |
